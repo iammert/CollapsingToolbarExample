@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.MyTheme">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Base.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_pink</item>
+        <item name="colorPrimaryDark">@color/color_pink</item>
+        <item name="colorAccent">@color/color_pink</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>
